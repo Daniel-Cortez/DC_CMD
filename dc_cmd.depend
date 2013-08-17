@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1274263342 source:/home/daniel/Projects/Code::Blocks projects/DC_CMD/DC_CMD/SDK/amxplugin.cpp
+	"amx/amx.h"
+	"plugincommon.h"
+
+1318801462 /home/daniel/Projects/Code::Blocks projects/DC_CMD/DC_CMD/SDK/amx/amx.h
+	"sclinux.h"
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+	<ppc/types.h>
+	<inttypes.h>
+	<alloca.h>
+
+1260504500 /home/daniel/Projects/Code::Blocks projects/DC_CMD/DC_CMD/SDK/amx/sclinux.h
+	<stdlib.h>
+
+1283240406 /home/daniel/Projects/Code::Blocks projects/DC_CMD/DC_CMD/SDK/plugincommon.h
+
+1367321495 source:/home/daniel/Projects/Code::Blocks projects/DC_CMD/DC_CMD/main.cpp
+	"SDK/amx/amx.h"
+	"SDK/plugincommon.h"
+
+1368195556 source:/home/daniel/Development/Code::Blocks projects/DC_CMD/DC_CMD/main.cpp
+	<stddef.h>
+	"SDK/amx/amx.h"
+	"SDK/plugincommon.h"
+	"MurmurHash3.cpp"
+	<boost/unordered_map.hpp>
+
+1318801462 /home/daniel/Development/Code::Blocks projects/DC_CMD/DC_CMD/SDK/amx/amx.h
+	"sclinux.h"
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+	<ppc/types.h>
+	<inttypes.h>
+	<alloca.h>
+
+1260504500 /home/daniel/Development/Code::Blocks projects/DC_CMD/DC_CMD/SDK/amx/sclinux.h
+	<stdlib.h>
+
+1283240406 /home/daniel/Development/Code::Blocks projects/DC_CMD/DC_CMD/SDK/plugincommon.h
+
+1368196625 /home/daniel/Development/Code::Blocks projects/DC_CMD/DC_CMD/MurmurHash3.cpp
+	"MurmurHash3.h"
+	<stdlib.h>
+
+1368158782 /home/daniel/Development/Code::Blocks projects/DC_CMD/DC_CMD/MurmurHash3.h
+	<stdint.h>
+
+1274263342 source:/home/daniel/Development/Code::Blocks projects/DC_CMD/DC_CMD/SDK/amxplugin.cpp
+	"amx/amx.h"
+	"plugincommon.h"
+
+1368192614 /home/daniel/Development/Code::Blocks projects/DC_CMD/DC_CMD/murmur3.c
+	"murmur3.h"
+
+1368023120 /home/daniel/Development/Code::Blocks projects/DC_CMD/DC_CMD/murmur3.h
+	<stdint.h>
+

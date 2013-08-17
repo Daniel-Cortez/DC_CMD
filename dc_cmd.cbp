@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="dc_cmd" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/dc_cmd" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="dc_cmd" prefix_auto="1" extension_auto="1" />
+				<Option object_output="/home/daniel/Projects/Code::Blocks projects/DC_CMD/.objs" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-march=pentium4" />
+					<Add option="-fomit-frame-pointer" />
+					<Add option="-O3" />
+					<Add option="-std=c++98" />
+					<Add option="-funroll-all-loops -ftree-vectorize -Ofast -flto" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++98" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="DC_CMD/SDK/amx/amx.h" />
+		<Unit filename="DC_CMD/SDK/amx/sclinux.h" />
+		<Unit filename="DC_CMD/SDK/amxplugin.cpp" />
+		<Unit filename="DC_CMD/SDK/plugincommon.h" />
+		<Unit filename="DC_CMD/main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
